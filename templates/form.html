@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>
+      check
+    </title>
+  </head>
+  <body>
+    <h1 class='command'>command-no</h1>
+    <div>
+      <form action="{{ url_for("gfg")}}" method="post">
+        <p>Enter scr for screenshot, vid for video of 5 sec, mic for 5sec audio</p>
+        <label for="firstname">Command:</label>
+        <input type="text" id="firstname" name="fname" placeholder="firstname">
+        <p>none for nothing</p>
+        <label for="lastname">Extra Information:</label>
+        <input type="text" id="lastname" name="lname" placeholder="lastname">
+        <button type="submit">Login</button>
+    </div>
+  </body>
+</html>
